@@ -1,0 +1,38 @@
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.login-div input {
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-div input:focus {
+  outline: none;
+}
+
+.login-div button {
+  background-color: #405de6;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+.login-div h1 {
+  font-family: "Brush Script MT", "Brush Script Std", "cursive";
+}
+.buttonInvalid {
+  opacity: 0.5;
+}
+
+.login-div p {
+  color: red;
+}

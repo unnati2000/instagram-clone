@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { useHistory, Link } from "react-router-dom";
-import FirebaseContext from "../context/firebase";
+import FirebaseContext from "../../context/firebase";
+import "./login.css";
 
 const Login = () => {
   const history = useHistory();
@@ -71,7 +72,7 @@ const Login = () => {
         <div className="flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary">
           <p className="text-sm">
             Don't have an account?{` `}
-            <Link to="/signup" className="font-bold text-blue-medium">
+            <Link to="/register" className="font-bold text-blue-medium">
               Sign up
             </Link>
           </p>
