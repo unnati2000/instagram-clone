@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
 .login-div {
   display: flex;
   justify-content: center;
@@ -26,13 +29,9 @@
   display: inline-block;
   cursor: pointer;
 }
-.login-div h1 {
-  font-family: "Brush Script MT", "Brush Script Std", "cursive";
+.form-div h1 {
+  font-family: "Pacifico", "cursive";
 }
 .buttonInvalid {
   opacity: 0.5;
-}
-
-.login-div p {
-  color: red;
 }

@@ -73,7 +73,7 @@ const Register = () => {
         <div className="form-div">
           <h1>Instagram</h1>
 
-          {error && <p>{error}</p>}
+          {error && <p className="error">{error}</p>}
 
           <form onSubmit={handleRegister} method="POST">
             <input
@@ -119,7 +119,7 @@ const Register = () => {
             </button>
           </form>
         </div>
-        <div className="flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary">
+        <div className="account">
           <p className="text-sm">
             Already have an account?
             <Link to="/login" className="font-bold text-blue-medium">

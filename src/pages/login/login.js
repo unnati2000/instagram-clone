@@ -39,7 +39,7 @@ const Login = () => {
         <div className="form-div">
           <h1>Instagram</h1>
 
-          {error && <p>{error}</p>}
+          {error && <p className="error">{error}</p>}
 
           <form onSubmit={handleLogin} method="POST">
             <input
@@ -69,7 +69,7 @@ const Login = () => {
             </button>
           </form>
         </div>
-        <div className="flex justify-center items-center flex-col w-full bg-white p-4 rounded border border-gray-primary">
+        <div className="account">
           <p className="text-sm">
             Don't have an account?{` `}
             <Link to="/register" className="font-bold text-blue-medium">
