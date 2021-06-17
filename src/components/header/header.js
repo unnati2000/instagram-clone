@@ -7,7 +7,6 @@ import "./header.css";
 const Header = () => {
   const { firebase } = useContext(FirebaseContext);
   const { user } = useContext(UserContext);
-  console.log(user);
 
   return (
     <div className="header">
