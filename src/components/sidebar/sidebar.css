@@ -12,3 +12,38 @@
 .profile-username {
   font-weight: bold;
 }
+
+.suggestions-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-pic-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.profile-pic-div img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  margin: 0 5px;
+}
+
+.suggestion-header {
+  text-align: center;
+}
+
+.profile-pic-div .username {
+  color: black;
+  text-decoration: none;
+}
+
+.follow-button {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-weight: 600;
+  cursor: pointer;
+}
